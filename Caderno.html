@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!-- Reconhecer caracteres especiais -->
+        <meta charset="UTF-8">
+        <!-- Compatibilidade com Internet Explorer -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Compatibilidade com Dispositivo Móvel-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <!-- Nome da Página -->
+        <title>Meu Website</title>
+        <!-- Descrição da Página-->
+        <meta name="description" content="Descrução da página">
+        
+        <!-- Facebook -->
+        <meta property="og:image" content="./img...png"> <!-- Imagem que aparece quando copia o link -->
+        <meta property="og:description" content="Descrução da página">
+        <meta property="og:title" content="Meu Website">
+
+        <!-- Twitter -->
+        <meta name="twitter:tittle" content="Meu Website">
+
+        <!-- Favicon - Logo da Página-->
+        <link rel="icon" href="https://alunos.kenzie.com.br/accounts/1/files/11/download?verifier=ESsDDItziPzfW2yyg8UxOUZtHqSQBJdFuHWKh9e4">
+    </head>
+
+    <body>
+        <!-- Tags -->
+        <nav> </nav>        <!-- Coloca denro barra de navegação e botões -->
+        <main> </main>      <!-- Organizador do texto principal -->
+        <header> </header>  <!-- Cabeçalho -->
+        <footer> </footer>  <!-- Rodapé -->
+        <div>               <!-- Bloco sólido para colocar temas, textos, e organizar seu código dentro dele -->
+            <h1>titulo de maior relevância</h1>
+            <h6>subtiulo de 6º nivel</h6>
+            <p>parágrafo</p>
+            <p>Texto em <em>ITÁLICO</em> para dar ÊNFASE</p>
+            <p><cite>TÍTULO</cite> de um livro</p>
+            <p>Itálico por <i>OUTRO</i> motivo ou palavras <i>ESTRANGEIRAS</i></p>
+            <p>texto em <strong>NEGRITO</strong> por ser <strong>MUITO</strong> importante</p>
+            <p>texto em <b lang="pt-BR">NEGRITO</b> por qualquer <b>OUTRO</b> motivo</p>
+            <blockquote>Citação de alguém</blockquote>
+            <br> <!-- Quebra o texto para próxima linha -->
+        </div>
+        <section> </section>    <!-- Seções -->
+        <aside> </aside>        <!-- Barra de anúncios, canto direito estático -->
+        <article> </article>    <!-- Bloco de Artigo -->
+        
+        <!-- Links -->
+        <a href="https://www.w3schools.com/html/html_entities.asp" target="_blank">Site das Entidades</a>
+        <a href="#">Retornar ao Topo</a>
+
+        <!-- Imagens -->
+        <img src="./img.png" width="600" height="600" alt="Texto alternaivo para se a imagem não carregar">
+        <!-- Local da Img ^  Largua ^     Alura ^ -->        
+        
+        <!-- Listas Ordenadas -->
+        <Ol reversed> <!-- Ordened List -->
+            <Li>List Item</Li>
+            <li>Second Item</li>
+        </Ol>
+
+        <!-- Listas Não Ordenadas -->
+        <ul> <!-- Unordened List -->
+            <li>List Item</li>
+        </ul>
+
+        <!-- Tabelas -->
+        <table border="1">
+            <Caption></Caption>     <!-- Legenda da Tabela -->
+            <thead>
+                <tr>        <!-- Table Row - 1 Linha da Tabela -->
+                    <th>Dia</th>  <!-- Table Head -->
+                    <th>Hora</th>
+                    <th>Atividade</th>
+                    <th>Comentário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>           <!-- 2 Linha da Tabela -->
+                    <td>1</td>
+                    <td>08:00</td>
+                    <td>Acordar</td>
+                    <td colspan="0"></td> <!-- Bloco Vazio -->
+                </tr>
+            </tbody>
+        </table>
+        <tfoot></tfoot>         <!-- Rodapé da Tabela -->
+        
+        <!-- Formularios -->
+        <Form>
+            <label for="nome">Coloque seu Nome</label>
+            <input type="text" maxlength="5" id="nome" name="variável nome" placeholder="Escrita que aparece no bloco de digitação" required="true">
+            <!-- ^ Preenchimento Obrigatório -->
+            <button type="submit">Confirmar dados Acima</button>
+        </Form>
+        <form>
+            <label for="email">Email</label>
+            <input id="email" required type="radio" name="metodo_de_contato" value="Email">
+            
+            <label for="whatsapp">Whatsapp</label>
+            <input id="whatsapp" required type="radio" name="metodo_de_contato" value="Whatsapp">
+            <button type="submit">Confirmar</button>
+        </form>
+
+        <!-- Formulário com Opções Selecionáveis -->
+        <form>
+            <label for="plano">Plano</label>
+            <select name="plano" id="plano" required>
+                <option value="">Escolha o Plano</option>
+                <option value="free">Free</option>
+                <option value="premium">Premium</option>
+                <option value="pro">Pro</option>
+            </select>
+            <button type="submit">Confirmar</button>
+        </form>
+
+    </body>
+</html> 
