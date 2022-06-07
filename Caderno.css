@@ -1,12 +1,29 @@
 /* Reset Model */
 html, body, header, ul, li, img, p, h1, h2, h3, nav, div, a, section{
-    margin: 0;
+    margin: 0;          
     padding: 0;         /* Borda Interna da Caixa */
+    border: none;       /* Borda Externa da Caixa */
     list-style: none;
     color: black;
     font-size: 16px;
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
-    border: none;
+}
+
+/* Exemplos */
+.exemplo{
+    border-radius: 50%;     /* Arredonda Imagens */
+    object-fit: cover;      /* Mantém a proporção da imagem */
+}
+
+/* Unidades de Medidas */
+.exemplo{
+    %       /* Porcentagem do valor do Pai */
+    em      /* Relativo ao valor do "font-size" do Pai */
+    rem     /* Relativo ao valor do "font-size" da Raiz(tag html) */
+    vh      /* Porcentagem relativa ao "altura" da Página */
+    vw      /* Porcentagem relativa a "largura" da Página */
+    vmin    /* Relativo a "Menor" dimensão da Página entre altura e largura */
+    vmax    /* Relativo a "Maior" dimensão da Página entre altura e largura */
 }
