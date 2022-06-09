@@ -27,3 +27,12 @@ html, body, header, ul, li, img, p, h1, h2, h3, nav, div, a, section{
     vmin    /* Relativo a "Menor" dimensão da Página entre altura e largura */
     vmax    /* Relativo a "Maior" dimensão da Página entre altura e largura */
 }
+
+/* FlexBox */
+.exemplo{
+    display: flex;              /* deixa seus Filhos flexiveis */
+    align-items: center;        /* alinha eixo vertical no centro */
+    justify-content: center;    /* alinha euxo horizontal no centro */
+    flex-direction: column;     /* muda a disposição dos items na tela */
+    flex-wrap: wrap;            /* permite a quebra da linha */
+}
