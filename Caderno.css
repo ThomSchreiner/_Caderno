@@ -15,6 +15,13 @@ html, body, header, ul, li, img, p, h1, h2, h3, nav, div, a, section{
 .exemplo{
     border-radius: 50%;     /* Arredonda Imagens */
     object-fit: cover;      /* Mantém a proporção da imagem */
+    transform: translateY();/* Move a caixa no eixo Y */
+    transition: 0.3s ease;  /* Cria um tempo de transição entre o "hover" */
+    overflow: hidden;       /* Oculta o que está sobrando atrás das bordas dele */
+}
+
+.exemplo:hover{
+    transform: scale(1.2);  /* Dá zoom em algo */
 }
 
 /* Unidades de Medidas */
