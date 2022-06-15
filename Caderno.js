@@ -9,3 +9,8 @@ alert("Cria um Alerta que sobrepoe a página com o que estiver Aqui")
 {
     "Este espaço se chama Escopo"
 }
+
+// Operadores Lógicos
+!  - Negação
+|| - ou
+&& - E
